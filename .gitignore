@@ -1,9 +1,12 @@
-######################
+ ######################
 # Project Specific
 ######################
 /build/www/**
 /src/test/javascript/coverage/
 /src/test/javascript/PhantomJS*/
+
+/pet-clinic-web/target/
+/pet-clinic-data/target/
 
 ######################
 # Node
@@ -75,6 +78,7 @@ local.properties
 ######################
 .gradle/
 /build/
+/target/*
 
 ######################
 # Package Files
